@@ -22,5 +22,40 @@ All you need to know about MongoDB.
 ### Authorization / Authentication.
 - Username and password or Certificate.
 
-#### Checking Mongo Version.
-- `mongosh --version`
+#### Checking Mongo Version: .
+- `db.version()`
+
+#### Connect to MongoDB: .
+- `mongo`
+
+#### Show all databases: .
+- `show dbs`
+
+#### Use a database: .
+- `use <db_name>`
+
+#### Show all collections in a database: .
+- `show collections`
+
+#### Create a collection: .
+- `db.createCollection("collection_name")`
+
+#### Insert a document into a collection: .
+- `db.collection_name.insert({field1: "value1", field2: "value2"})`
+
+#### Find all documents in a collection: .
+- `db.collection_name.find()`
+
+#### Find documents with a specific condition: .
+- `db.collection_name.find({field: "value"})`
+
+#### Update a document in a collection: .
+- `db.collection_name.update({field1: "value1"}, {$set: {field2: "new_value"}})`
+
+#### Delete a document in a collection: .
+- `db.collection_name.remove({field: "value"})`
+
+
+
+
+
