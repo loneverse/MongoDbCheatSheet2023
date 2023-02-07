@@ -55,6 +55,21 @@ All you need to know about MongoDB.
 #### Delete a document in a collection: .
 - `db.collection_name.remove({field: "value"})`
 
+### Insert Documents
+#### Insert a single document: .
+- `db.collection_name.insertOne({field1: "value1", field2: "value2"})`
+
+#### Insert multiple documents in a collection: .
+- `db.collection_name.insertMany([
+   {field1: "value1", field2: "value2"},
+   {field1: "value3", field2: "value4"},
+   {field1: "value5", field2: "value6"}
+])`
+
+#### Find All Documents: .
+- `db.collection_name.find()`
+
+#### 
 
 
 
