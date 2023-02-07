@@ -1,4 +1,4 @@
-# MongoDbCheatSheet2023
+# MongoDb Cheat Sheet 2023
 All you need to know about MongoDB.
 ## MongoDB Cheat Sheet
 
@@ -69,7 +69,12 @@ All you need to know about MongoDB.
 #### Find All Documents: .
 - `db.collection_name.find()`
 
-#### 
+### Sorting Documents
+#### Sorting Documents in Ascending Order: .
+- `db.collection_name.find().sort({field1: 1})`
+
+#### Sorting Documents in Descending Order: .
+- `db.collection_name.find().sort({field1: -1})`
 
 
 
